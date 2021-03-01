@@ -22,7 +22,6 @@ Pod::Spec.new do |s|
       sdkcore.dependency 'SalesforceAnalytics'
       sdkcore.libraries = 'z'
       sdkcore.resource_bundles = { 'SalesforceSDKResources' => [ 'shared/resources/SalesforceSDKResources.bundle/**' ] }
-      sdkcore.resource = 'shared/resources/SalesforceSDKAssets.xcassets'
 
       # subspec for code that any of the source_files of no-arc depend on
       sdkcore.subspec 'base' do |sp|
