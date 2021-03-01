@@ -161,9 +161,6 @@
             location = "group:SalesforceSDKResources.bundle">
          </FileRef>
          <FileRef
-            location = "group:SalesforceSDKAssets.xcassets">
-         </FileRef>
-         <FileRef
             location = "group:LaunchScreen.storyboard">
          </FileRef>
       </Group>
